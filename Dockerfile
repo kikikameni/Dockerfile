@@ -1,7 +1,7 @@
 # Base Image
 FROM centos:7
 
-LABEL maintainer="our awesome teacher"
+LABEL maintainer="Kiki is awesome"
 
 # Updating our OS
 RUN yum -y update && yum clean all
